@@ -1,13 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>My CV</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello HTML</h1>
-    <img src="img/html.png" alt="" width="100">
+  <div class="container">
+    <div class="info">
+      <img class="avatar" src="avatar.jpg" alt="Моя фотографія">
+
+      <div class="info-text">
+      <h1>Качурець Олексій</h1>
+      <pre>
+Бо ти на землі – людина,
+І хочеш того чи ні –
+Усмішка твоя – єдина,
+Мука твоя – єдина,
+Очі твої – одні.</pre>
+
+<h4>Мої соціальні мережі</h4>
+
+  <a target="_blank" href=" https://instagram.com/">Instagram</a>
+  l
+  <a target="_blank" href="https://www.facebook.com/">Facebook</a>
+      </div>
+    </div>
+
+
+    <div class="card bg-yellow">
+        <h2>Мої хобі</h2>
+        <ul class="list">
+          <li>Велосипед, настільний теніс</li>
+          <li>Фото</li>
+          <li>Любительський туризм</li>
+          <li>Гаджети</li>
+        </ul>
+    </div>
+
+      <div class="card bg-green">
+        <h2>Досвід роботи</h2>
+          <table class="table">
+            <tbody>
+              <tr>
+                <td>Компанія 1»</td>
+                <td>Посада 1</td>
+                <td>2010-2014</td>
+              </tr>
+              <tr>
+                <td>Компанія 2»</td>
+                <td>Посада 2</td>
+                <td>2014-2017</td>
+              </tr>
+              <tr>
+                <td>Компанія 3</td>
+                <td>Посада 3</td>
+                <td>2017-2022</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+
+
+        <div class="contact">
+            <h2>Зв'язатися зі мною</h2>
+            <form action="/">
+
+              <div class="row">
+                <div class="form-group">
+                <label for="name">Ваше І'мя</label>
+                <input type="text" id="name" placeholder="Ведіть ваше і'мя">
+                </div>
+                
+
+                <div class="form-group">
+                <label for="email">Ваш e-mail</label>
+                <input type="email" id="email" placeholder="Ведіть ваш email">
+                </div>
+              </div>
+
+              <div class="form-group">
+              <label for="text">Ваше повідомлення</label>
+              <textarea id="text" rows="2" cols="15"></textarea>
+              </div>
+              
+              <input class="btn" type="submit" value="Відправити">
+            </form>
+      </div>
+
+        <div class="position">
+          <div class="box"></div>
+        </div>
+
+    </div>
 </body>
 </html>
